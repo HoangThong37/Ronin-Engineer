@@ -10,6 +10,8 @@ public class groupingString {
 
     public static void main(String[] args) {
         String[] strings = {"eat","tea","tan","ate","nat","bat"};
+        //String[] strings1 = {""};
+        //String[] strings2 = {"a"};
         List<List<String>> lists = grouping(strings);
         System.out.println(lists);
     }
